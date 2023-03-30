@@ -1,3 +1,12 @@
+@font-face {
+    font-family: regularfont;
+    src: url(assets/Epilogue-Regular.woff);
+}
+@font-face {
+    font-family: boldfont;
+    src: url(assets/Epilogue-Bold.woff);
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -8,6 +17,7 @@
 body{
     display: grid;
     place-items: center;
+    font-family: regularfont;
 }
 
 :root{
@@ -34,20 +44,27 @@ button{
     border: 1px solid var( --very-dark-color);
     background-color: white;
     border-radius: 0.5rem;
+    width: 182px;
+    height: 48px;
+   
 }
 main{
     margin-top: 3rem;
 }
 .mission-statement{
-    font-size: 40px;
+    font-size: 38px;
     color: var(--very-dark-color);
+    width: 343px;
+    height: 89px;
+    line-height: 44px;
 }
 bold {
     font-weight: bold;
+    font-family: boldfont;
 }
 .curve-line {
-    margin-left: 8.5rem;
-    width: 150px;
+    margin-left: 10rem;
+    width: 100px;
 }
 img .curve {
     width: 100%;
@@ -56,15 +73,25 @@ span {
     font-weight: 300;
 }
 .quote1 {
-    font-size: 20px;
-    line-height: 35px;
-    margin: 2rem auto;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 2rem 0;
     font-weight: 300;
     color: var(--dark-color);
+    width: 343px;
+    height: 84px;
+    left: 16px;
 }
 .mission-btn {
     color: var(--accent-color);
     background-color: var(--very-dark-color);
+    width: 256px;
+    height: 61px;
+    font-weight: 700;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 32px;
+    letter-spacing: -0.18px;
 }
 .hero {
     margin: 3rem auto;
@@ -90,6 +117,8 @@ span {
 .bolded-text {
     font-size: 35px;
     font-weight: bold;
+    font-family: boldfont;
+    color: var(--very-dark-color);
 }
 .stats-text {
     text-transform: uppercase;
@@ -100,10 +129,11 @@ span {
     height: 11rem;
 }
 .testimonial {
+    width: 100%;
     position: relative;
     background-color: var(--very-dark-color);
     color: var(--accent-color);
-    border-radius: 0.5rem;
+    border-radius: 0.7rem;
 
 }
 .testimonial-content{
@@ -111,26 +141,30 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
 
 }
 .jeremy-img-container {
     width: 65%;
     position: absolute;
     left: 4.5rem;
-    top: -8rem;
+    top: -10rem;
 
 }
 .blurred-bg {
     margin: 0 auto;
     text-align: center;
     margin-bottom: 1rem;
-    margin-top: -8rem;
+    margin-top: -10rem;
+    
    
 
 }
 .curve-line-2 {
     width: 15%;
     margin-bottom: 2rem;
+    margin-top: -7rem;
 
 }
 .desktop-testimonial-2 {
@@ -138,21 +172,25 @@ span {
 }
 .testimonial-title {
     font-size: 32px;
-    letter-spacing: -0.2px;
+    letter-spacing: 0.5px;
+    margin-bottom: 2rem;
+    line-height: 25px;
 }
 .testimonial-body {
-    margin-bottom: 2rem;
     font-size: 18px;
-    line-height: 35px;
-    margin: 2rem auto;
-    font-weight: 300;
+    line-height: 32px;
+    font-weight: 400;
     text-align: center;
-    padding-inline: 1.5rem;
+    padding: 5rem 0;
+    letter-spacing: 0.09px;
+    
+    
 }
 .testimonial-name {
     margin-bottom: 3rem;
     text-align: center;
     line-height: 32px;
+    margin-top: 3rem;
 
 
 }
