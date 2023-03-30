@@ -101,7 +101,7 @@ span {
     width: 100%;
     height: auto;
 }
-.tablet-hero-img-container, .desktop-hero-img-container, .desktop-stats, .jeremy-img-container-big{
+.tablet-hero-img-container, .desktop-hero-img-container, .desktop-stats, .jeremy-img-container-big, .desktop-curve-line{
     display: none;
 }
 
@@ -241,7 +241,8 @@ footer {
     .tablet-config {display: flex; margin: 0; align-items: center;}
     .mission{height: min-content; position: relative; top: 4rem;}
     .main-header{position: absolute; width: 31rem; top: -8.5rem;}
-    .curve-line{margin-left: 11.5rem; width: 200px;}
+    .curve-line{display: none;}
+    .desktop-curve-line{display: block; margin-left: 11.5rem; width: 200px;}
     .mission-statement{font-size: 56px; 
         font-weight: 400; 
         width: 500px;
@@ -303,7 +304,8 @@ footer {
     .desktop-view{display: flex; justify-content: space-between; width: 100%;}
     .tablet-config{margin-left: 0; padding: 0;}
     .main-header{width: 38rem; top: -12rem;}
-    .curve-line{margin-left: 17rem; width: 260px;}
+    .curve-line{display: none;}
+    .desktop-curve-line{display: block; margin-left: 17rem; width: 260px;}
     .mission-statement{
         font-size: 70px; 
         width: 620px; 
