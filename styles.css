@@ -182,10 +182,11 @@ span {
     line-height: 32px;
     font-weight: 400;
     text-align: center;
-    padding: 5rem 0;
     letter-spacing: 0.09px;
     
     
+    
+   
 }
 .testimonial-name {
     margin-bottom: 3rem;
@@ -336,13 +337,15 @@ footer {
         text-align: left;}
     .desktop-testimonial-2{
         height: 430px; 
-        padding: 4rem 0 0 2rem; 
+        padding: 4rem 0 0 0.5rem; 
         width: 325px;
         margin-bottom: -5rem;
-        margin-right: -13rem;
+        margin-right: -8rem;
+        text-align: left;
     }
     .testimonial-name{
         margin-top: 3rem;
+        text-align: left;
     }
     .testimonial-title {
         margin-bottom: 2.5rem;
@@ -351,8 +354,10 @@ footer {
     
     .testimonial-body{
         padding-left: 0;
-        line-height: 30px;
-        letter-spacing: 5rem;
+        line-height: 27px;
+        letter-spacing: 0.09rem;
+        text-align: left;
+        width: 24rem;
     }
     .testimonial-content{flex-direction: row; padding: 0; height: 34rem;}
     .jeremy-img-container{display: none;}
