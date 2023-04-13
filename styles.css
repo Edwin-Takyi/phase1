@@ -33,6 +33,7 @@ body{
 .container{
     margin: 1rem;
     max-width: 400px;
+    margin-left: 3rem;
 }
 header{
     display: flex;
@@ -116,10 +117,11 @@ span {
     margin: 3rem auto;
 }
 .bolded-text {
-    font-size: 35px;
+    font-size: 42px;
     font-weight: bold;
     font-family: boldfont;
     color: var(--very-dark-color);
+    margin-bottom: 1rem;
 }
 .stats-text {
     text-transform: uppercase;
@@ -275,7 +277,7 @@ footer {
     }
     .footer-logo{width: 85px;}
     .background{
-        width: 900px;
+        width: 800px;
         position: absolute;
         height: 730px;
         top: 1325px;
@@ -306,7 +308,7 @@ footer {
     .tablet-config{margin-left: 0; padding: 0;}
     .main-header{width: 38rem; top: -12rem;}
     .curve-line{display: none;}
-    .desktop-curve-line{display: block; margin-left: 17rem; width: 260px;}
+    .desktop-curve-line{display: block; margin-left: 18rem; width: 260px;}
     .mission-statement{
         font-size: 70px; 
         width: 620px; 
@@ -379,9 +381,10 @@ footer {
         margin-bottom: -10rem;
     }
     .background{
-        width: 1248px;
-        height: 350px;
+        width: 100%;
+        height: 450px;
         position: absolute;
         top: 1111px;
     }
+    
 }
