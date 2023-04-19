@@ -32,9 +32,8 @@ body{
 }
 .container{
     margin: 1rem;
-    max-width: 414px;
-    min-width: 360px; 
-    margin-left: 3rem;
+    max-width: 500px;
+
 }
 header{
     display: flex;
@@ -240,7 +239,7 @@ footer {
 
 
 @media screen and (min-width: 600px){
-    .container{min-width: 600px; margin-bottom: 2px; margin-right: 6.5rem;}
+    .container{min-width: 600px; margin-bottom: 2px;}
     .tablet-config {display: flex; margin: 0; align-items: center;}
     .mission{height: min-content; position: relative; top: 4rem;}
     .main-header{position: absolute; width: 31rem; top: -8.5rem;}
