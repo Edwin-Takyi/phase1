@@ -154,7 +154,7 @@ span {
 .jeremy-img-container {
     width: 65%;
     position: absolute;
-    left: 4.5rem;
+    left: 8.5rem;
     top: -10rem;
 
 }
@@ -255,6 +255,10 @@ footer {
         line-height: 64px;
         letter-spacing: -0.777778px;
     }
+    .quote1{
+        font-size: 18px;
+        padding-top: 1px;
+    }
     .mobile-hero-img {display: none;}
     .tablet-hero-img-container{display: block; width: 15rem; margin-left: 1.5rem;}
     .stats{
@@ -319,7 +323,7 @@ footer {
         line-height: 78px;
         letter-spacing: -0.3px;
     }
-    .quote1{width: 55%; margin-left: 0;}
+    .quote1{width: 60%; margin-left: 0; font-size: 18px;}
     .tablet-hero-img-container {width: 18rem; padding: 0; }
     .tablet-hero-img{margin-left: -8rem;}
     .stats{display: none;}
